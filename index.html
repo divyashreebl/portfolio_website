@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divyashri B L - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+    <h2 class="logo">Portfolio</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="divyashree resume.pdf" download class="resume-btn">⬇ Resume</a>
+</aside>
+
+
+<!-- MAIN CONTENT -->
+<div class="content">
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello I'm <span>Divyashree B L</span></h1>
+            <p>Frontend-focused CSE student from Malnad College of Engineering</p>
+        </div>
+
+        <img src="Profile.jpeg" class="hero-img" alt="image">
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section glass">
+        <h2>About Me</h2>
+        <p>
+            Passionate about designing clean and elegant UI.  
+            I enjoy frontend development, Java programming, DSA and creative project thinking.  
+            I like exploring how Java handles OOP, Collections, File Handling and Console Apps.
+        </p>
+    </section>
+
+
+    <!-- SKILLS with Icons -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+
+        <div class="skill-grid">
+
+            <div class="skill-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/888/888859.png">
+                Frontend Development
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+                Java Programming
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919852.png">
+                Python
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/3665/3665923.png">
+                C Language
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PROJECTS updated -->
+    <section id="projects" class="section glass">
+        <h2>Projects</h2>
+
+        <div class="project-strip">
+
+            <div class="project-box">
+                <h3>Portfolio Website</h3>
+                <p>Responsive lavender-themed portfolio with skills, education and contact.</p>
+            </div>
+
+            <div class="project-box">
+                <h3>Weather App UI</h3>
+                <p>JavaScript based temperature lookup and city weather interface.</p>
+            </div>
+
+            <div class="project-box">
+                <h3>Java Mini Projects</h3>
+                <p>
+                    ➤ Student Result System<br>
+                    ➤ Console ATM Simulator<br>
+                    ➤ Library Issue Tracker
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="edu-card">
+            <h3>B.E in CSE</h3>
+            <p>Malnad College of Engineering, Hassan</p>
+            <p>3rd Year</p>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section glass">
+        <h2>Contact Me</h2>
+
+        <form action="contact.php" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="email" name="email" placeholder="Enter Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+    </section>
+
+    <footer>© 2025 — Portfolio</footer>
+
+</div>
+
+</body>
+</html>
